@@ -31,7 +31,7 @@
     </thead>
     <tbody>
       <tr>
-        <th rowspan="2">type 1</th>
+        <th rowspan="2">Type 1</th>
         <td>Actually written context A</td>
         <td>Actually written comment C</td>
         <td rowspan="2">1</td>
