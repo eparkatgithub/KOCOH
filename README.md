@@ -7,7 +7,7 @@
   * 맥락에 기대어 혐오적으로 해석되는 혐오 표현
   * 즉, 맥락 없이 해당 문장만으로는 무표적이거나 심지어 긍정적으로 해석하는 것도 가능
   * 예시
-    |Context|Comment|Hate speech|
+    |Context|Comment|Hate|
     |:---|:---|:---:|
     |여성 고용이 미흡해 정부가 불이익을 준 기업의 이름이 공개되었다.|믿을 만한 그룹이라는 얘기네|1|
     |직원에게 높은 수준의 복지를 제공한 기업의 이름이 공개되었다.|믿을 만한 그룹이라는 얘기네|0|
@@ -26,7 +26,7 @@
         <th></th>
         <th>Context</th>
         <th>Comment</th>
-        <th>Hate speech</th>
+        <th>Hate</th>
       </tr>
     </thead>
     <tbody>
@@ -34,7 +34,7 @@
         <th rowspan="2">type 1</th>
         <td>Actually written context A</td>
         <td>Actually written comment C</td>
-        <td rowspan="2">Yes</td>
+        <td rowspan="2">1</td>
       </tr>
       <tr>
         <td>광주광역시의 맛있는 음식 다섯 가지를 소개했다.</td>
@@ -44,7 +44,7 @@
         <th rowspan="2">Type 2</th>
         <td>Created context B</td>
         <td>Comment D(same as comment C)</td>
-        <td rowspan="2">No</td>
+        <td rowspan="2">0</td>
       </tr>
       <tr>
         <td>일본 오사카의 맛있는 음식 다섯 가지를 소개했다.</td>
@@ -54,7 +54,7 @@
         <th rowspan="2">Type 3</th>
         <td>Actually written context A</td>
         <td>Actually written comment E</td>
-        <td rowspan="2">No</td>
+        <td rowspan="2">0</td>
       </tr>
       <tr>
         <td>광주광역시의 맛있는 음식 다섯 가지를 소개했다.</td>
