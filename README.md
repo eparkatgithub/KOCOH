@@ -1,28 +1,31 @@
 # KOCOH (KOrean COntext-dependent Hate speech) Dataset
-* 논문: 2월 중 [한국어학](https://koling.org/) 출판 예정
+* Paper: [KOCOH: A Dataset for Detecting Context-Dependent Hate Speech](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003173761)
+* Authors: [Park Eunah](https://github.com/eparkatgithub), [Song Sanghoun](http://corpus.mireene.com/)
+* Contact: dmsdk1993@korea.ac.kr
 * [Hugging Face](https://huggingface.co/datasets/E-Park/KOCOH)🤗
 
-본 데이터 세트는 '한국어 맥락 의존적 혐오 표현' 데이터 세트입니다.
+This is **Ko**rean **co**ntext-dependent **h**ate speech dataset, KOCOH.
 
-* 혐오 표현
-  * 소수자(실질적인 정치‧사회적 권력이 열세이면서 공통의 정체성을 가진 집단)에 대한 편견 또는 차별을 확산시키거나 조장하는 행위 또는 어떤 개인, 집단에 대해 그들이 소수자로서의 속성을 가졌다는 이유로 멸시‧모욕‧위협하거나 그들에 대한 차별, 적의, 폭력을 선동하는 표현(홍성수, 2018)
-* 맥락 의존적 혐오 표현
-  * 맥락에 기대어 혐오적으로 해석되는 혐오 표현
-  * 즉, 맥락 없이 해당 문장만으로는 무표적이거나 심지어 긍정적으로 해석되는 것도 가능
-  * 예시
+## Main concept
+* Hate speech
+  * Verbal or non-verbal expressions that propagate or promote prejudice or discrimination against minorities (groups with common identity who have relatively diminished political and social power), or denigrate, insult, or threaten individuals or groups based on their attributes as minorities, or incites discrimination, hostility, or violence against them (Hong, 2018)
+* Context-dependent hate speech
+  * Hate speech interpreted as hateful through contextual factors rather than explicit content alone
+  * In other words, without context, the statement itself may appear neutral or even positive in interpretation
+  * Examples
     |Context|Comment|Hate|
     |:---|:---|:---:|
-    |여성 고용이 미흡해 정부가 불이익을 준 기업의 이름이 공개되었다.|믿을 만한 그룹이라는 얘기네|1|
-    |직원에게 높은 수준의 복지를 제공한 기업의 이름이 공개되었다.|믿을 만한 그룹이라는 얘기네|0|
+    |여성 고용이 미흡해 정부가 불이익을 준 기업의 이름이 공개되었다.<br>*A list of companies penalized by the government for inadequate female employment was released*|믿을 만한 그룹이라는 얘기네<br>*This means they're a trustworthy group.*|1|
+    |직원에게 높은 수준의 복지를 제공한 기업의 이름이 공개되었다.<br>*A list of companies that provide high-level welfare benefits to employees was released.*|믿을 만한 그룹이라는 얘기네<br>*This means they're a trustworthy group.*|0|
 
-# 데이터 설명(Data Description)
-* 수집 플랫폼: [디시인사이드 실시간 베스트 갤러리](https://gall.dcinside.com/board/lists/?id=dcbest)
-* 수집 기간: 2024년 6월 2일~23일
-* 데이터 세트 규모
+## Data Description
+* Source: [Dcinside Real-time Best Gallery](https://gall.dcinside.com/board/lists/?id=dcbest)
+* Period: 2024/06/02-23
+* Size
   |Total|Type 1|Type 2|Type 3|
   |:---:|:---:|:---:|:---:|
   |2,005|539|539|927|
-* 데이터 유형 설명 및 예시
+* Types and examples
   <table>
     <thead>
       <tr>
@@ -40,8 +43,8 @@
         <td rowspan="2">1</td>
       </tr>
       <tr>
-        <td>광주광역시의 맛있는 음식 다섯 가지를 소개했다.</td>
-        <td>먹고 싶은데 여권 들고 가기 귀찮아::</td>
+        <td>광주광역시의 맛있는 음식 다섯 가지를 소개했다.<br><i>Introduced five delicious foods from Gwangju Metropolitan City.</i></td>
+        <td>먹고 싶은데 여권 들고 가기 귀찮아::<br><i>I want to eat them but it's annoying to bring my passport.</i></td>
       </tr>
       <tr>
         <th rowspan="2">Type 2</th>
@@ -50,8 +53,8 @@
         <td rowspan="2">0</td>
       </tr>
       <tr>
-        <td>일본 오사카의 맛있는 음식 다섯 가지를 소개했다.</td>
-        <td>먹고 싶은데 여권 들고 가기 귀찮아::</td>
+        <td>일본 오사카의 맛있는 음식 다섯 가지를 소개했다.<br><i>Introduced five delicious foods from Osaka, Japan.</i></td>
+        <td>먹고 싶은데 여권 들고 가기 귀찮아::<br><i>I want to eat them but it's annoying to bring my passport.</i></td>
       </tr>
       <tr>
         <th rowspan="2">Type 3</th>
@@ -60,12 +63,12 @@
         <td rowspan="2">0</td>
       </tr>
       <tr>
-        <td>광주광역시의 맛있는 음식 다섯 가지를 소개했다.</td>
-        <td>역시 광주다</td>
+        <td>광주광역시의 맛있는 음식 다섯 가지를 소개했다.<br><i>Introduced five delicious foods from Gwangju Metropolitan City.</i></td>
+        <td>역시 광주다<br><i>That's Gwangju for you.</i></td>
       </tr>
     </tbody>
   </table>
-* 데이터 세트 열 구성
+* Columns
   <table>
     <thead>
       <tr>
@@ -137,10 +140,20 @@
     </tbody>
   </table>
 
-# 인용(Citation)
+## Reference
+Hong, S. (2018). *When Words Hurt.* Across.
+
+## Citation
+```
+@article{ART003173761,
+author={박은아 and 송상헌},
+title={KOCOH: 맥락 의존적 혐오 표현 탐지를 위한 데이터 세트},
+journal={한국어학},
+issn={1226-9123},
+year={2025},
+volume={106},
+pages={251-277}
+}
 ```
 
-```
-
-# 참고 문헌(Reference)
-홍성수. (2018). _말이 칼이 될 때: 혐오표현은 무엇이고 왜 문제인가?._ 어크로스.
+## License
