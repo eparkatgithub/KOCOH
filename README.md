@@ -141,7 +141,7 @@ This is **Ko**rean **co**ntext-dependent **h**ate speech dataset, KOCOH.
   </table>
 
 ## Reference
-Hong, S. (2018). *When Words Hurt.* Across.
+Hong, S. (2018). [*When Words Hurt.*](https://scholarworks.sookmyung.ac.kr/handle/2020.sw.sookmyung/20524) Across.
 
 ## Citation
 ```
