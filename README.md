@@ -4,7 +4,8 @@
 * Contact: dmsdk1993@korea.ac.kr
 * [Hugging Face](https://huggingface.co/datasets/E-Park/KOCOH)🤗
 
-This is **Ko**rean **co**ntext-dependent **h**ate speech dataset, KOCOH.
+This is **Ko**rean **co**ntext-dependent **h**ate speech dataset, KOCOH.<br>
+[한국어 설명](https://github.com/eparkatgithub/KOCOH/blob/main/README_ko.md)
 
 ## Main concept
 * Hate speech
@@ -141,7 +142,7 @@ This is **Ko**rean **co**ntext-dependent **h**ate speech dataset, KOCOH.
   </table>
 
 ## Reference
-Hong, S. (2018). [*When Words Hurt.*](https://scholarworks.sookmyung.ac.kr/handle/2020.sw.sookmyung/20524) Across.
+Hong, S. (2018). [*When Words Hurt*](https://scholarworks.sookmyung.ac.kr/handle/2020.sw.sookmyung/20524). Across.
 
 ## Citation
 ```
