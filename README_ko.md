@@ -1,5 +1,5 @@
 # KOCOH (KOrean COntext-dependent Hate speech) Dataset
-* 논문: [KOCOH: 맥락 의존적 혐오 표현 탐지를 위한 데이터 세트](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12109799)
+* 논문: [KOCOH: 맥락 의존적 혐오 표현 탐지를 위한 데이터 세트](http://dx.doi.org/10.20405/kl.2025.02.106.251)
 * 저자: [박은아](https://github.com/eparkatgithub), [송상헌](http://corpus.mireene.com/)
 * 연락처: dmsdk1993@korea.ac.kr
 * [Hugging Face](https://huggingface.co/datasets/E-Park/KOCOH)🤗
