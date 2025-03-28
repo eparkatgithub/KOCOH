@@ -1,5 +1,5 @@
 # KOCOH (KOrean COntext-dependent Hate speech) Dataset
-* Paper: [KOCOH: A Dataset for Detecting Context-Dependent Hate Speech](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003173761)
+* Paper: [KOCOH: A Dataset for Detecting Context-Dependent Hate Speech](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12109799)
 * Authors: [Park Eunah](https://github.com/eparkatgithub), [Song Sanghoun](http://corpus.mireene.com/)
 * Contact: dmsdk1993@korea.ac.kr
 * [Hugging Face](https://huggingface.co/datasets/E-Park/KOCOH)🤗
