@@ -147,9 +147,9 @@ Hong, S. (2018). [*When Words Hurt*](https://scholarworks.sookmyung.ac.kr/handle
 ## Citation
 ```
 @article{ART003173761,
-author={박은아 and 송상헌},
-title={KOCOH: 맥락 의존적 혐오 표현 탐지를 위한 데이터 세트},
-journal={한국어학},
+author={Park, Eunah and Song, Sanghoun},
+title={KOCOH: A Dataset for Detecting Context-Dependent Hate Speech},
+journal={Korean Linguistics},
 issn={1226-9123},
 year={2025},
 volume={106},
