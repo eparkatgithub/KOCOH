@@ -7,6 +7,10 @@
 This is **Ko**rean **co**ntext-dependent **h**ate speech dataset, KOCOH.<br>
 [한국어 설명](https://github.com/eparkatgithub/KOCOH/blob/main/README_ko.md)
 
+## Histroy
+* 2025/10/24: Update to Version 2
+* 2025/01/31: First public release of the dataset
+
 ## Main concept
 * Hate speech
   * Verbal or non-verbal expressions that, based on prejudice or discrimination against socially marginalized or vulnerable groups, denigrate, disparage, or insult such groups or individuals belonging to them, or incite discrimination or violence against them.
