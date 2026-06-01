@@ -145,7 +145,7 @@ This is **Ko**rean **co**ntext-dependent **h**ate speech dataset, KOCOH.<br>
       </tr>
       <tr>
         <th>Ikiyano-style</th>
-        <td>Including *ikiyano* style (-no) (0 or 1 labeling)</td>
+        <td>Including <i>ikiyano</i> style (-no) (0 or 1 labeling)</td>
       </tr>
     </tbody>
   </table>
