@@ -26,7 +26,7 @@ This is **Ko**rean **co**ntext-dependent **h**ate speech dataset, KOCOH.<br>
 ## Data Description
 * Source
   * [Dcinside Real-time Best Gallery](https://gall.dcinside.com/board/lists/?id=dcbest) (2024/06/02-23)
-  * [FMkorea Best Board](https://www.fmkorea.com/best)(2025/01/01-21)
+  * [FMkorea Best Board](https://www.fmkorea.com/best) (2025/01/01-21)
 * Size
   |Total|Type 1|Type 2|Type 3|
   |:---:|:---:|:---:|:---:|
